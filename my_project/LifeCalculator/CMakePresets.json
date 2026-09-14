@@ -1,0 +1,15 @@
+{
+  "version": 3,
+  "configurePresets": [
+    {
+      "name": "qt-windows",
+      "displayName": "Qt Windows",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/build",
+      "cacheVariables": {
+        "CMAKE_PREFIX_PATH": "C:/Users/Asus/Desktop/qtt/6.11.2/mingw_64",
+        "CMAKE_BUILD_TYPE": "Debug"
+      }
+    }
+  ]
+}
